@@ -102,7 +102,18 @@ button:hover{
     border: none;
 }
 
-@media screen and (max-width:1020px){
-    
-}
-    
+@media screen and (max-width: 850px){
+    /*cabeçalho*/
+    .navbar{
+        display: none;
+    }
+
+    /*titulo*/
+    .content h1{
+
+        font-size: 32px;
+
+
+    }
+        
+  }
